@@ -36,7 +36,7 @@ const GameView = props => {
       </ChoiceButton>
       <ChoiceButton
         type="button"
-        data-testid="paperButton"
+        data-testid="scissorsButton"
         onClick={() => checkResult(choicesList[1].id)}
       >
         <ChoiceImage
@@ -47,7 +47,7 @@ const GameView = props => {
       </ChoiceButton>
       <ChoiceButton
         type="button"
-        data-testid="scissorsButton"
+        data-testid="paperButton"
         onClick={() => checkResult(choicesList[2].id)}
       >
         <ChoiceImage
